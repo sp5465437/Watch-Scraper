@@ -1,27 +1,31 @@
-⌚ Fetch Watches for Men Under ₹2000 from Flipkart
-This repository contains two projects:
+# ⌚ Watch Scraper – Flipkart Watches under ₹2000
 
-1️⃣ Auto Data Fetch from Flipkart
-A Python-based scraper that automatically fetches watch data from Flipkart and saves it in an Excel file.
+A Python-based web scraping project that automatically fetches the latest watch listings for men under ₹2000 from Flipkart and saves the data in an Excel file for analysis.
 
-Features
-Uses Python, Selenium, Pandas, and OpenPyXL
+---
 
-Scrapes watch details: Name, Brand, Price, Availability
+## 📌 Features
+- Fetch watch listings from Flipkart with a single script run.
+- Store product details like **Title, Price, Rating, and Link** in Excel.
+- Automated data collection using BeautifulSoup.
+- Easy to set up and run locally.
 
-Filters out watches priced above ₹2000
+---
 
-Saves the extracted data into an Excel file
+## 🛠️ Requirements
+- **Python 3.8+**
+- **Pandas**
+- **OpenPyXL**
+- **BeautifulSoup**
 
-Requirements
-Make sure you have the following installed:
+---
 
-Python
+🚀 Running the Project
+## After completing the setup, run the following commands in your terminal:
 
-Selenium
+- **python flipkart_watch_scraper.py**
 
-Pandas
+---
 
-OpenPyXL
+<img width="1886" height="1002" alt="" src="https://github.com/sp5465437/Watch-Scraper/blob/main/images/Output.png" />
 
-Install the dependencies using:
